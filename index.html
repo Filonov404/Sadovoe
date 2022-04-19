@@ -37,12 +37,6 @@
                     <a href="ustavsnt.html">Устав</a>
                 </li>
                 <li>
-                    <a href="sobranie.html">Собрание</a>
-                </li>
-                <li>
-                    <a href="#">Контакты</a>
-                </li>
-                <li>
                     <a href="employees.html">Сотрудники</a>
                 </li>
                 <li>
@@ -51,52 +45,39 @@
                 <li>
                     <a href="photo.html">Фото</a>
                 </li>
-                <li>
-                    <a href="#">Имущество СНТ</a>
-                </li>
             </div>
         </div>
-            <div class="header-top-wrapper">
-                <div class="header-contact">
-                    <div class="time-work">Пн.-Сб. 9:30 -18:00</div>
-                    <a href="mailto:SNT-politechnick@mail.ru" class="email">SNT-politechnick@mail.ru</a>
-                </div>
-                <div class="header-nav">
-                    <ul class="menu-list">
-                        <li class="menu-item">
-                            <a href="plan.html" class="menu-list">План СНТ</a>
+        <div class="header-top-wrapper">
+            <div class="header-contact">
+
+                <a href="mailto:SNT-politechnick@mail.ru" class="email">SNT-politechnick@mail.ru</a>
+            </div>
+            <div class="header-nav">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a href="plan.html" class="menu-list">План СНТ</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="ustavsnt.html" class="menu-list">Устав</a>
+                    </li>
+                </ul>
+                <nav class="nav">
+                    <button class="dropdown-toggle">Ещё</button>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="employees.html">Сотрудники</a>
                         </li>
-                        <li class="menu-item">
-                            <a href="#" class="menu-list">Устав</a>
+                        <li>
+                            <a href="report.html">Отчеты</a>
                         </li>
-                        <li class="menu-item">
-                            <a href="sobranie.html" class="menu-list">Собрание</a>
+                        <li>
+                            <a href="#">Объявления</a>
                         </li>
-                        <li class="menu-item">
-                            <a href="#" class="menu-list">Контакты</a>
+                        <li>
+                            <a href="photo.html">Фото</a>
                         </li>
                     </ul>
-                    <nav class="nav">
-                        <button class="dropdown-toggle">Ещё</button>
-                        <ul class="dropdown">
-                            <li>
-                                <a href="employees.html">Сотрудники</a>
-                            </li>
-                            <li>
-                                <a href="report.html">Отчеты</a>
-                            </li>
-                            <li>
-                                <a href="#">Объявлени</a>
-                            </li>
-                            <li>
-                                <a href="photo.html">Фото</a>
-                            </li>
-                            <li>
-                                <a href="#">Имущество СНТ</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+                </nav>
             </div>
         </div>
     </div>
@@ -108,15 +89,26 @@
         </div>
         <div class="contact-header-bottom">
             <a href="tel:+79192440097" class="mobile">+7 919 244 00 97</a>
-            <!-- <a href="#" class="contact-telegram">Написать в telegram</a> -->
         </div>
         <div class="call">
             <a href="tel:+79192440097" class="call-phone">Председатель</a>
         </div>
-        <button class="reqvisits">Реквизиты</button>
+        <button data-modal class="reqvisits">Реквизиты</button>
     </div>
 </div>
-
+<div class="reqvisits-modal hide">
+    <div class="reqvisits-wrapper">
+        <button data-close class="reqvisits-close">&times;</button>
+        <p class="reqvisits-text">СНТ "ПОЛИТЕХНИК"</p>
+        <p class="reqvisits-text">Расчётный счёт: 40703810613000001241</p>
+        <p class="reqvisits-text">Банк: ЦЕНТРАЛЬНО-ЧЕРНОЗЕМНЫЙ БАНК ПАО СБЕРБАНК</p>
+        <p class="reqvisits-text">БИК: 042007681</p>
+        <p class="reqvisits-text">Кор. Cчёт: 30101810­600000000681</p>
+        <p class="reqvisits-text">ОГРН: 1033600040100</p>
+        <p class="reqvisits-text">ИНН: 3625002864</p>
+        <p class="reqvisits-text">КПП: 362501001</p>
+    </div>
+</div>
 <section class="slider">
     <div class="container">
         <h1 class="title">СНТ Политехник</h1>
@@ -214,15 +206,60 @@
         </div>
     </div>
 </section>
-<section class="form">
 
-</section>
 <footer class="footer">
     <div class="container">
+        <div class="footer-inner">
+            <div class="footer-info">
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="/" class="footer-logo">
+                            <img src="images/icons/tree_footer_fff.svg" alt="logo">
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="mailto:SNT-politechnick@mail.ru" class="footer-email">SNT-politechnick@mail.ru</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="plan.html" class="footer-link">Воронежская обл., Рамонский р-н,<br> Тер Снт Политехник</a>
+                    </li>
+                    <li class="footer-item">
+                        <div class="time-work">Пн.-Сб. 9:30 -18:00</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a class="footer-link" href="plan.html">План СНТ</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="ustavsnt.html">Устав</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-items">
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a class="footer-link" href="employees.html">Сотрудники</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="report.html">Отчеты</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="photo.html">Фото</a>
+                    </li>
+                </ul>
+            </div>
 
+        </div>
     </div>
 </footer>
 <script src="js/main.js"></script>
+<script src="js/modal.js"></script>
 <script src="js/slick.min.js"></script>
 </body>
 
